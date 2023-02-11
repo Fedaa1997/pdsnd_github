@@ -4,7 +4,13 @@ import numpy as np
 
 
 def greeting() :
+
     print ( " welcome to bikeshare system ")
+    
+ def info(username,mobilenum) : 
+       print( " your  username is {} and your mobilenum is {} " .format(username,mobilenum))
+       
+ 
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
